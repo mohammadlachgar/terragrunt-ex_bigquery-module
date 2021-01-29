@@ -9,3 +9,7 @@ mkdir -p ./creds
 gcloud secrets versions access latest --secret=$name_secret --format='get(payload.data)' | tr '_-' '/+' | base64 -d > ./creds/serviceaccount.json
 
 gcloud auth activate-service-account --key-file ./creds/serviceaccount.json
+
+ls
+
+ls ./creds 
