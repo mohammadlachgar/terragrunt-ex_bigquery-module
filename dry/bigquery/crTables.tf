@@ -9,12 +9,4 @@ module "crTables" {
   bq_creator = var.bq_creator
   bq_table_label_env     = var.bq_table_label_env
 }
-variable "env" {}
-variable "project" {}
-variable "bq_staging_dataset" {}
-variable "bq_description" {}
-variable "bq_location" {}
 
-variable "bq_datasets_delete_data_on_destroy" {}
-variable "bq_creator" {}
-variable "bq_table_label_env" {}
