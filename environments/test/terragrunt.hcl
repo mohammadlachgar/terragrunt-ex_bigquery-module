@@ -4,9 +4,9 @@ include {
 }
 
 terraform {
-  source = "../../dry//bigquery//crTables"
+  source = "../../dry/bigquery//crTables"
 }
 
-# inputs = {
-# credentials = "${get_parent_terragrunt_dir()}/serviceaccount.json"
-# }
+inputs = {
+credentials = "${get_parent_terragrunt_dir()}/serviceaccount.json"
+}
