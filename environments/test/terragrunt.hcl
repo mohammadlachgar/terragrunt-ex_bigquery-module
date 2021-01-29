@@ -4,7 +4,7 @@ include {
 }
 
 terraform {
-  source = "../../dry/bigquery//crTables"
+  source = "../../dry/bigquery/crTables"
 }
 
 inputs = {
