@@ -3,7 +3,7 @@ include {
 }
 
 terraform {
-  source ="../../dry/bigquery"
+   source ="../../dry/bigquery"
 }
 
 inputs = {
