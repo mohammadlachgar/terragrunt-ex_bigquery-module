@@ -1,5 +1,5 @@
 module "crTables" {
-  source  = "file:///workspace/modules/bigquery/"
+  source  = "../../modules/crTables/"
   project = var.project
   env     = var.env
   bq_staging_dataset = var.bq_staging_dataset
