@@ -1,2 +1,3 @@
 # terragrunt-ex_bigquery-module
-Test
+
+"CloudBuild treggers" ==> "source(Branch)" ==set=example=> ^prod$|^test$

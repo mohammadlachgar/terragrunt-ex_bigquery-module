@@ -44,6 +44,7 @@ EOF
 }
 
 
+
 generate "variables" {
   path = "variables.tf"
   if_exists = "overwrite_terragrunt"
