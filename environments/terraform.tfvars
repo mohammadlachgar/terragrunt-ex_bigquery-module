@@ -6,11 +6,11 @@
 project     = "burnished-case-280710"
 region      = "europe-west1"
 zone        = "europe-west1-b"
-credentials = "../../creds/serviceaccount.json"
+#credentials = "serviceaccount.json"
 
 
 # ========================================================================================
-# GCP BIGQUERY GENERIC PROPERTIES 
+# GCP BIGQUERY GENERIC PROPERTIES
 # ========================================================================================
 
 
