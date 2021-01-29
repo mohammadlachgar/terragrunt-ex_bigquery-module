@@ -35,7 +35,7 @@ generate "provider" {
   if_exists = "overwrite_terragrunt"
   contents = <<EOF
 provider "google" {
-  credentials = file(var.credentials)
+  credentials = file("../../creds/serviceaccount.json")
   project     = var.project
   region      = var.region
   zone        = var.zone
