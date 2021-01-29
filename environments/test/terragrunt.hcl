@@ -8,5 +8,5 @@ terraform {
 }
 
 inputs = {
-credentials = "../${get_parent_terragrunt_dir()}/serviceaccount.json"
+credentials = "${get_parent_terragrunt_dir()}/serviceaccount.json"
 }
