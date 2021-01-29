@@ -4,6 +4,6 @@ include {
 }
 
 terraform {
-  source = "../../dry//bigquery"
+  source = "../../dry//bigquery//crTables"
 }
 
