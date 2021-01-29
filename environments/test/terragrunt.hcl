@@ -4,6 +4,6 @@ include {
 }
 
 terraform {
-  source = "${path_relative_from_include()}/dry/bigquery//${path_relative_to_include()"
+  source = "../../dry//bigquery"
 }
 
