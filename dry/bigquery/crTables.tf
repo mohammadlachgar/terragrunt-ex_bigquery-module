@@ -9,4 +9,3 @@ module "crTables" {
   bq_creator = var.bq_creator
   bq_table_label_env     = var.bq_table_label_env
 }
-
